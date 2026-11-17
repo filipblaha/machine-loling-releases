@@ -7,6 +7,9 @@ for macOS and Windows. This repository holds no source code.
 Intel) or the Windows `-setup.exe`. After the first install the app updates itself: it shows
 "Install and restart" when a new version is out.
 
+**Windows:** the installer is not code-signed yet. If SmartScreen says "Windows protected your
+PC", choose **More info → Run anyway**. The macOS app is signed and notarized by Apple.
+
 **Update check:** the app downloads `latest.json` from the latest release here, at start and every
 6 hours (it can be turned off in Settings). The request carries no usage data, account or device
 ID; GitHub sees your IP address, as with any download. Every update is signed, and the app refuses
